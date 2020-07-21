@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+We are an Indian Startup supporting the Digital India and Make in India Projects. We work with our clients to continually evolve the business challeneges and provide them with the best possible solutions with the least overheads.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+We can be contacted on +91 - 8368247517
 
-### Contact me
+### Contact us
 
-[email@domain.com](mailto:email@domain.com)
+[contact@transilience.tech](mailto:contact@transilience.tch)
