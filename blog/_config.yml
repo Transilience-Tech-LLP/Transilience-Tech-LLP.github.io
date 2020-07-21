@@ -49,8 +49,8 @@ url: "https://www.transilience.tech/blog"
 # then add in the baseurl here, like this: "/repository-name"
 # baseurl: ""
 baseurl: "/blog"
-production_url : http://Transilience-Tech-LLP.github.io/blog
-BASE_PATH : http://Transilience-Tech-LLP.github.io/blog
+production_url : https://Transilience-Tech-LLP.github.io/blog
+BASE_PATH : https://Transilience-Tech-LLP.github.io/blog
 
 #
 # !! You don't need to change any of the configuration flags below !!
