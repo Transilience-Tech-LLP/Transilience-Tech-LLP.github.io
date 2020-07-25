@@ -1,3 +1,7 @@
 - name: Enterprise Audit Tool
   img: /images/projects/ps.png
   desc: Our network security audit tool gives the power to the network administrators to monitor the health of their end terminals and gather more valuable security related data than the regular **NMS** solutions out there.
+
+- name: School Management System
+  img: /images/projects/school-mgt.png
+  desc: Our school management system provides all the required components for any school to manage **Students**, **Staff** and conduct of online classroom for students securely in a cloud managed or offline environment. 
