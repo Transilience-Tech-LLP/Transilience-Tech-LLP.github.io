@@ -1,0 +1,26 @@
+# services section data
+# 
+- name: Pentesting
+  # img: https://images.squarespace-cdn.com/content/v1/54f3390ee4b095d9141b86a5/1591361228956-26V43QFUQ6MT60KS2J8R/ke17ZwdGBToddI8pDm48kM0HbCBcGs5JJmwJmcHaIK57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UXLIUExSbru4NUj73GbUP1ccRfJ_TifJd_EvtniyfBh4bSexTd1-frD7527z4SM9QQ/Penetration+Testing+Icon.png
+  img: /images/services/pentest.png
+  desc: 
+    summary: A Penetration Test (Pen Test) involves simulating the effects of a hacker attempting to break into your network. The problem with most other tests is that they are pre-built software programs, designed to run against your network. However, hackers aren’t software! A software solution can in no way properly simulate how a human being will try to enter your network and damage or steal your information. Since you need an unbiased, honest look at your network, you still need to find an outside organization to test your security.
+    url: https://en.wikipedia.org/wiki/Penetration_test
+
+- name: Secure Development
+  img: /images/services/secure-development.png
+  desc: 
+    summary: We take security seriously. We believe security begins at Hello World!. At transilience we undertake secure software development. Our development team is experienced in development of Websites, Web Apps, Mobile and Desktop Apps for various platforms. You can count on us!.
+    url: https://www.synopsys.com/blogs/software-security/secure-sdlc/#:~:text=Generally%20speaking%2C%20a%20secure%20SDLC,design%20phase%20of%20the%20SDLC.
+
+- name: Malware Analysis
+  img: /images/services/malware.jpg
+  desc:
+    summary: A malware attack is when cybercriminals create malicious software that's installed on someone else's device without their knowledge to gain access to personal information or to damage the device, usually for financial gain. Different types of malware include viruses, spyware, ransomware, and Trojan horses.
+    url: https://enterprise.comodo.com/how-to-identify-malware-attack-in-computer.php
+
+- name: Data Leak Prevention
+  img: images/services/leakage.jpg
+  desc:
+    summary: Data leakages are among the biggest reasons companies are loosing money and reputation. When your data is found dangling on the Darknet or you suspect a data leak, we work with you to plug the gap and also to find the culprit. We help you in instilling an effective Data leakage policy to stay secure.
+    url: https://www.imperva.com/learn/data-security/data-loss-prevention-dlp/#:~:text=Data%20Loss%20Prevention%20(DLP)%20is,data%20and%20comply%20with%20regulations.

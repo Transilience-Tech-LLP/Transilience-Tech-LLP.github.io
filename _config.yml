@@ -1,0 +1,42 @@
+# Site settings
+title: Transilience Tech LLP
+description: 'People First | Technology Always'
+url: 'https://www.transilience.tech'
+baseurl: ''
+profilepic: '/images/logo.png'
+bkimage: '/images/bk1.jpg'
+google_analytics: UA-173268091-1
+font_awesome: '53d7a3a62b.js'
+
+author:
+  name: 'Transilience Tech'
+  email: contact@transilience.tech
+  twitter_username: _transilience
+  github_username: transilience
+  linkedin_username:  
+  meetup_name: 
+
+blog:
+  default_img: '/images/post_images/default.jpg'
+  
+other_urls:
+  # blog: https://medium.com/@transiliencetech
+  blog: '/blog'
+  
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']

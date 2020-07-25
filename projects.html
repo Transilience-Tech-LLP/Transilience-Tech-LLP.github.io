@@ -1,0 +1,36 @@
+---
+layout: default
+robots: noindex
+permalink: /projects
+---
+
+<!-- <div id="services"> -->
+
+  <ul class="timeline">
+    
+    {% for project in site.data.projects %}
+
+      <li class="timeline-inverted">
+
+        <div class="timeline-image">
+          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+        </div>
+
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h2>
+              {{ project.name }}
+              <!-- <a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a> -->
+            </h2>
+          </div>
+
+          <div class="timeline-body">
+            {{ project.desc | markdownify }}
+          </div>
+
+        </div>
+      </li>
+    {% endfor %}
+    
+  </ul>
+
