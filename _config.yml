@@ -46,3 +46,6 @@ exclude: ['README.md', 'screenshot-overview.png']
 collections:
   authors:
     output: true
+
+plugins:
+  - jekyll-sitemap
