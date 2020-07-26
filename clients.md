@@ -1,6 +1,6 @@
 ---
 layout: default
-robots: noindex
+robots: all
 permalink: /clients
 ---
 
