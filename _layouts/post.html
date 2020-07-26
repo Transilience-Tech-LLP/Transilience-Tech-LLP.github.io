@@ -21,7 +21,20 @@
       <div class="content-wrapper__inner">
         
         {{ content }}
-      
+
+        <hr style="border: 1em; border-color: brown;" />
+
+        <h3 style="color: brown;">About the Author</h3>
+
+        {% assign author = site.authors | where: 'nickname', page.author | first %}
+          {% if author %}
+              <h4><a href="{{ site.baseurl }}/authors/#{{author.nickname}}"> {{ author.name }}</a></h4>
+              <hr/>
+              <p>
+                {{author.content}}
+              </p>
+              
+          {% endif %}
 
         {% if page.comments %}
           <div id="disqus_thread"></div>

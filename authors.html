@@ -1,0 +1,45 @@
+---
+layout: default
+robots: all
+permalink : /authors
+---
+
+
+<ul class="timeline">
+
+    {% for author in site.authors %}
+      <li class="timeline-inverted">
+
+        
+        <div class="timeline-image">
+            {% if author.image %}
+                <img class="img-me" src="{{ author.image }}" alt="{{ author.name }}"/>
+            {% else %} 
+                <img class="img-me" src="{{ site.blog.default_img }}" alt=""/>
+            {% endif %}
+        </div>
+
+        
+
+        <div class="timeline-panel">
+
+            <div class="timeline-heading" id={{author.nickname}}>
+                <h1>{{ author.name }}</h1>
+                
+            </div>
+
+            <div class="timeline-body">
+                {{ author.content | markdownify }}
+
+                <a href="{{ author.linkedin }} "><img src="/images/authors/linkedin.png" style="width: 50px;" /> </a>
+            </div>
+            <!-- if post has been published on medium / quora / linkedin  -->
+            <div class="timeline-footer">
+                <h5>{{ post.date | date_to_long_string }}</h5>
+            </div>
+        </div>
+
+
+      </li>
+    {% endfor %}
+</ul>

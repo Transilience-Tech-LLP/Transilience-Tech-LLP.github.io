@@ -37,6 +37,12 @@ kramdown:
   input: GFM
   # do not replace newlines by <br>s
   hard_wrap: false
+  auto_ids: true
+  syntax_highlighter: rouge
 
 #plugins: ['jekyll-paginate']
 exclude: ['README.md', 'screenshot-overview.png']
+
+collections:
+  authors:
+    output: true

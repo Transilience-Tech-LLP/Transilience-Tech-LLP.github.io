@@ -3,17 +3,18 @@ layout: post
 title: Chinese Spying revealed yet again
 date: 2020-06-27 20:53
 category: Espionage
-author: Indu Dahiya
+author: divya.khandelwal
 tags: ["China", "Cyber Warfare", "Espionage"]
 summary: The Chinese have been caught spying on its mobile users yet again. This is a speck in the overall game that China is playing against its rivals and this has a global impact.
-youtubeId: l_fVbuXLaAA
-feature_img: 
+
+feature_img: /images/authors/divya.jpeg
 excerpt_separator: <!--more-->
 medium: https://medium.com/@transiliencetech/chinese-spying-revealed-yet-again-658b259bf030
 linkedin:
 facebook:
 twitter:
 comments: true
+youtubeId: 
 ---
 
 # Chinese Spying Revealed yet again!
@@ -30,7 +31,9 @@ According to TikTok, the issue is triggered by a feature designed to identify re
 
 The Chinese apps and corporations have been time and again caught doing something naughty and then they blame it on something and rush to fix that. The trend seems to have surfaced quiet often.
 
+```
 As reported by Zak Doffman, when enquired TikTok on the clipboard issue, the company was adamant it was not their problem and related to an outdated library in their app. “The clipboard access issues,” a spokesperson told me, “showed up due to third-party SDKs, in our case an older version Google Ads SDK, so we do not get access to the information through this (presumably they do but we cannot speak to that). We are in the processes of updating so that the third-party SDK will no longer have access.”
+```
 
 Apple’s latest OS, iOS 14 security and privacy changes have caught TikTok red-handed still capturing the clipboard, which they shouldn’t. Reading off the phone itself is not the sole issue, it is the Apple’s universal clipboard functionality, which in effect means that anything copied on Mac or iPad can be read by a malicious app on iPhone, and vice versa, which can contain a lot of sensitive stuff like Passwords, work documents, sensitive emails, financial information.
 
