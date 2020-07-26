@@ -21,4 +21,4 @@ We have undertaken multiple projects with our clients and are honoured to have b
 
 ***
 
-### NeoMythic Group, 1550 Spring St, McLean, VA, 21002
+![neomythic](/images/clients/neomythic.png)
