@@ -29,7 +29,7 @@ permalink : /blog
                     <div class="timeline-body">
                         
                             {% if author %}
-                                <h4>By : <a href="{{ site.baseurl }}/authors/#{{author.nickname}}"> {{ author.name }}</a></h4>
+                                <h4>By : <a href="{{ site.baseurl }}/authors#{{author.nickname}}"> {{ author.name }}</a></h4>
                             {% endif %}
                         
                         {{ post.summary | markdownify }}
@@ -37,6 +37,7 @@ permalink : /blog
                         <a href="{{ post.url }} ">Read More...</a>
                     </div>
                     <!-- if post has been published on medium / quora / linkedin  -->
+
                     <div class="timeline-footer">
                         <h5>{{ post.date | date_to_long_string }}</h5>
                     </div>

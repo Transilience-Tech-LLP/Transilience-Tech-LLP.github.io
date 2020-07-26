@@ -5,15 +5,17 @@ date: 2020-07-26 07:57
 category: SDLC
 author: vivek.srivastava
 tags: ["Security", "SDLC", "Development", "Testing"]
+comments: true
+
 summary: Due to the large number of attacks that are occuring today, it is of paramount importance that software be built securely. Analyzing the risk from the initial phases of the development life cycle will not only make the product secure from current attacks but also help plan and mitigate risks arising out of future attacks. A software developed without security considerations, is secured by doing patchwork, and finally one realises that the bandwidth regired to secure the software is too high, thus resulting in very high costs.
-youtubeId:
-feature_img: /images/authors/vivek.jpg
-excerpt_separator: <!--more-->
+
+
 medium: 
 linkedin:
 facebook:
 twitter:
-comments: true
+youtubeId:
+excerpt_separator: <!--more-->
 ---
 
 <!--more-->
