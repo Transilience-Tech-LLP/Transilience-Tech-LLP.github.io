@@ -2,6 +2,8 @@
 layout: default
 robots: all
 permalink: /clients
+title: Our Clients
+summary: Our association with our clients make us who we are. Our clients trust us with thier security, which is the most a human can ask for.
 ---
 
 # Our Clients
