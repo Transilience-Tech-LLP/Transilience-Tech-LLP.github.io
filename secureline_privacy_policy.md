@@ -153,4 +153,4 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 If you have any questions about this Privacy Policy, please contact us:
 
 *   By email: contact@transilience.tech
-*   By visiting this page on our website: https://transilience.tech/secureline_privacy_policy
+*   By visiting this page on our website: https://www.transilience.tech/secureline_privacy_policy
