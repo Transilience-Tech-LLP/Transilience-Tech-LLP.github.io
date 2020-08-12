@@ -42,7 +42,12 @@ summary: Our ideas, thoughts and novell approach makes us different from the oth
 
                     <div class="timeline-footer">
                         <h5>{{ post.date | date_to_long_string }}</h5>
+
+                        {% for tag in post.tags %}
+                            <span>{{tag}} | </span> 
+                        {% endfor %}
                     </div>
+
                 </div>
 
 
