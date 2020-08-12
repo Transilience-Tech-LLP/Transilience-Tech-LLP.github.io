@@ -7,6 +7,7 @@ author: parinay.bansal
 tags: ["flutter","android","ios","firebase"]
 summary: Flutter is the next big thing for Android and iOS development. Google has gone to great lengths to create the beautiful framework and the support it has received from the community, is immense. Now that browsing and working are both shifting to Mobile Platforms, the demand for apps is growing.
 comments: true
+feature_img: https://koenig-media.raywenderlich.com/uploads/2020/02/FirebaseFlutter-feature.png
 ---
 
 

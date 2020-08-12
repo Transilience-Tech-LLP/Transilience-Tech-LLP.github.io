@@ -9,7 +9,7 @@ comments: true
 
 summary: Due to the large number of attacks that are occuring today, it is of paramount importance that software be built securely. Analyzing the risk from the initial phases of the development life cycle will not only make the product secure from current attacks but also help plan and mitigate risks arising out of future attacks. A software developed without security considerations, is secured by doing patchwork, and finally one realises that the bandwidth regired to secure the software is too high, thus resulting in very high costs.
 
-
+feature_img: /images/post_images/images-blog-qac-secure-software-development.jpg
 medium: 
 linkedin:
 facebook:
@@ -17,10 +17,6 @@ twitter:
 youtubeId:
 excerpt_separator: <!--more-->
 ---
-
-<!--more-->
-
-![Secure-Development](/images/post_images/images-blog-qac-secure-software-development.jpg)
 
 # Importance of Security in the SDLC
 

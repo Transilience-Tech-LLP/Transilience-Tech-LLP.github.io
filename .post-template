@@ -1,0 +1,17 @@
+---
+layout: post
+title: [Blog Title]
+date: YYYY-MM-DD HH:MM
+category: [Category]
+author: User
+tags: [tag1, tag2]
+summary: article summary
+feature_img: 
+excerpt_separator: <!--more-->
+medium: 
+linkedin:
+facebook:
+twitter:
+comments: true
+youtubeId: 
+---
