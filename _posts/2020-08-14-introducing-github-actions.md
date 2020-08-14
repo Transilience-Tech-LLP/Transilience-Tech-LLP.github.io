@@ -189,7 +189,8 @@ get-posts-job:
         run: pip install scrapy           
 
       - name: Get TDS posts about GitHub Actions                                   
-        run: scrapy runspider posts_spider.py -o posts.json</span> <span id="1111" class="ct nk lv bj ng b cb no np nq nr ns nm r nn">** - name: Upload artifact                        
+        run: scrapy runspider posts_spider.py -o posts.json
+      - name: Upload artifact                        
         uses: actions/upload-artifact@v2                          
         with:                                   
           name: posts                                   
