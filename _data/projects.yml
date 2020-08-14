@@ -5,3 +5,7 @@
 - name: School Management System
   img: /images/projects/school-mgt.png
   desc: Our school management system provides all the required components for any school to manage **Students**, **Staff** and conduct of online classroom for students securely in a cloud managed or offline environment. 
+
+- name: SecureLine Chat Mobile App
+  img: /images/projects/secureline.png
+  desc: Our mobile app is a truely end to end encypted secure mobile app, which demonstrated the use of flutter to create blazing fast app. The app makes use of flutter to create a beautiful and responsive app. The app follows a serverless architecture and uses Google Cloud Functions and Cloud firestore.
