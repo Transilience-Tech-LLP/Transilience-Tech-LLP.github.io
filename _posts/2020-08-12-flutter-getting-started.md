@@ -4,7 +4,7 @@ title: Flutter getting started
 date: 2020-08-12 22:16
 category: Flutter
 author: parinay.bansal
-tags: ["flutter","android","ios","firebase"]
+tags: ["Flutter","Android","iOS","Firebase"]
 summary: Flutter is the next big thing for Android and iOS development. Google has gone to great lengths to create the beautiful framework and the support it has received from the community, is immense. Now that browsing and working are both shifting to Mobile Platforms, the demand for apps is growing. This is a beginner's guide to getting started on flutter with Firebase
 comments: true
 feature_img: https://koenig-media.raywenderlich.com/uploads/2020/02/FirebaseFlutter-feature.png
