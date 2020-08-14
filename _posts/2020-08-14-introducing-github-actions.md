@@ -14,6 +14,7 @@ facebook:
 twitter:
 comments: true
 youtubeId: 
+original_article: https://towardsdatascience.com/introduction-to-github-actions-7fcb30d0f959
 ---
 
 # Introduction to GitHub Actions
@@ -281,8 +282,4 @@ And that’s if for our tour. You can also use [variables and secrets](https://d
 
 In this guide, we didn’t use one of the main cool things of CI which is to **test often** so we can spot bugs early on in the process. But I think it’s good to understand how the actions and workflow work before doing that. I hope now it’ll be easier to start using CI tools, I plan to do that on the next tutorials.
 
-You can see all the code we used here: [https://github.com/dmesquita/github-actions-tutorial](https://github.com/dmesquita/github-actions-tutorial)
-
 That’s it for today, thanks for reading!
-
-__The original article can be found [here](https://towardsdatascience.com/introduction-to-github-actions-7fcb30d0f959)__
