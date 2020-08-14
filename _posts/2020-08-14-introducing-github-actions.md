@@ -4,8 +4,8 @@ title: Introducing Github Actions
 date: 2020-08-14
 category: SDLC
 author: parinay.bansal
-tags: ["github", "actions", "data-science"]
-summary: Github actions can be overwhelming, yet powerful. Moving to the new era we need to automate a lot of things and github has been beautifully catching up. In this post we introduce some concepts how github can be used by data scientists for automating certain tasks.
+tags: ["github", "actions", "CI/CD"]
+summary: Github actions can be overwhelming, yet powerful. Moving to the new era we need to automate a lot of things and github has been beautifully catching up. In this post we introduce some concepts how github can be used for automating certain tasks. Using github actions can help us setup a CI/CD pipeline such that we can run automated tasks, and catch errors early on.
 feature_img: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Octicons-logo-github.svg/1200px-Octicons-logo-github.svg.png
 excerpt_separator: <!--more-->
 medium: 
@@ -18,8 +18,6 @@ original_article: https://towardsdatascience.com/introduction-to-github-actions-
 ---
 
 # Introduction to GitHub Actions
-
-## For data scientists
 
 ![Image for post](https://miro.medium.com/max/3838/1*e2eE4tHIgABdCpFrSY42OA.png)
 
