@@ -1,37 +1,37 @@
 ---
 layout: default
 robots: all
-permalink: /projects
-title: Our Projects | The projects that we have been associated with. Our projects make us unique.
-summary: Our Projects are what make us different from the rest. We promise what we can execute.
+permalink: /news
+title: Latest News | Latest news in the cyber security world.
+summary: A One stop shop to find all the latest happenings around the globe in Cyber Security and Technology.
 ---
 
 <!-- <div id="services"> -->
 
   <ul class="timeline">
     
-    {% for project in site.data.projects %}
+    {% for news in site.data.news %}
 
       <li class="timeline-inverted">
 
         <div class="timeline-image">
-          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+          <img class="img-me" src="{{ news.img | prepend: site.baseurl }}" alt="">
         </div>
 
         <div class="timeline-panel">
           <div class="timeline-heading">
             <h2>
-              {{ project.name }}
+              {{ news.name }}
               <!-- <a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a> -->
             </h2>
           </div>
 
           <div class="timeline-body">
-            {{ project.desc | markdownify }}
+            {{ news.desc | markdownify }}
           </div>
 
-          <div>
-            {{ project.link_icon }}
+          <div class="timeline-footer"> 
+            <a target="_blank" href="{{ news.link }}"><i class="far fa-eye"></i><span class="watchers"> Read more...</span></a>
           </div>
         </div>
       </li>

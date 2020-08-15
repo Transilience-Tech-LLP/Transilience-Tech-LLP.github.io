@@ -9,3 +9,5 @@
 - name: SecureLine Chat Mobile App
   img: /images/projects/secureline.png
   desc: Our mobile app is a truely end to end encypted secure mobile app, which demonstrated the use of flutter to create blazing fast app. The app makes use of flutter to create a beautiful and responsive app. The app follows a serverless architecture and uses Google Cloud Functions and Cloud firestore.
+  link: https://play.google.com/store/apps/details?id=com.transilience.truechat
+  link_icon: <a href='https://play.google.com/store/apps/details?id=com.transilience.truechat&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
