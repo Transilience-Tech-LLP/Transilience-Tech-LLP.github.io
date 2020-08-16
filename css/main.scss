@@ -58,3 +58,64 @@ pre.highlight code,
   border: 3px solid #fff;
   border-radius:100%;
 }
+
+// For news
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 10px;
+  padding-right: 20px;
+  overflow: auto;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  }
+
+
+  .card-img {
+    width: 30%;
+    height: 100%;
+    float: left;
+    vertical-align: middle;
+    display: block;
+  }
+
+  .card-heading h2{
+    width: 70%;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .card-body {
+    width: 70%;
+    float: right;
+    overflow: hidden;
+  }
+
+  .card-body p{
+    text-align: justify;
+  }
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+// card for news for mobile
+@media only screen and (max-width : 900px) {
+  .card-img {
+  display: none;
+  }
+  .card-heading h2{
+    width: 100%;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .card-body {
+    width: 100%;
+    overflow: hidden;
+  }
+}
