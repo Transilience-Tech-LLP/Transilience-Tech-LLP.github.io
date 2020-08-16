@@ -17,7 +17,9 @@ youtubeId:
 original_article: https://towardsdatascience.com/introduction-to-github-actions-7fcb30d0f959
 ---
 
-# Introduction to GitHub Actions
+# Introducing and using Github Actions for CI/CD for DevOps or DevSecOps or Data Scientists
+
+## Introduction to GitHub Actions
 
 ![Image for post](https://miro.medium.com/max/3838/1*e2eE4tHIgABdCpFrSY42OA.png)
 
@@ -27,14 +29,14 @@ From the point of view of CI/CD, the main goal of GitHub Actions and Workflows i
 
 Today we’ll learn more about GitHub Actions and learn how to use them using Bash scripting and Python. Nice, let’s get started!
 
-# GitHub Actions vs. Workflows
+## GitHub Actions vs. Workflows
 
 First, it’s good to state the difference between GitHub Actions and Workflows. As the GitHub Actions [Documentation](https://docs.github.com/en/actions) states, actions are “**individual tasks** that you can combine to create jobs and customize your workflow”. On the other hand, [Workflows](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow#about-workflows) are “**custom automated processes** that you can set up in your repository to build, test, package, release, or deploy any project on GitHub”. In other words:
 
 *   **Workflows**: automated processes that run on your repository; workflows can have many GitHub Actions
 *   **GitHub Actions**: individual tasks; they can be written using Docker, JavaScript and now also shell scrips with the new [Composite Run Steps](https://github.blog/changelog/2020-08-07-github-actions-composite-run-steps/); you can write your own actions or use an action someone else created
 
-# Writing our first Workflow
+## Writing our first Workflow
 
 Let’s first create a workflow with no action just to understand how it works. Workflows are defined using YAML files and you must store them in the `.github/workflows` directory in the root of your repository.
 
@@ -122,7 +124,7 @@ The `with` syntax is a map of input parameters defined by the action. Here is th
 The result of the ASCII art Action
 </p>
 
-# Using Python with Workflows
+## Using Python with Workflows
 
 As Data Scientists we use a lot of Python in our day to day, so it’s a good idea to learn how to use it in our workflows. **Setting a specific version of Python or PyPy** is the recommended way of using Python with GitHub Actions because it “ensures consistent behavior across different runners and different versions of Python”. To do that we’ll use an action: `setup-python`.
 
@@ -205,7 +207,7 @@ And now we can download the file using the GitHub UI:
 Downloading the artifact
 </p>
 
-# Creating your first Action
+## Creating your first Action
 
 Actions can be created using Docker containers, JavaScript or you can create an action using shell scripts (a composite run steps action). The main use case for the [composite run steps action](https://github.blog/changelog/2020-08-07-github-actions-composite-run-steps/) is when you have a lot of shell scripts to automate tasks and writing a shell script to combine them is easier than JavaScript or Docker.
 
