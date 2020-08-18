@@ -1,10 +1,10 @@
 # services section data
 # 
-- name: Pentesting
+- name: Penetration Testing and Consulting (Pentest)
   # img: https://images.squarespace-cdn.com/content/v1/54f3390ee4b095d9141b86a5/1591361228956-26V43QFUQ6MT60KS2J8R/ke17ZwdGBToddI8pDm48kM0HbCBcGs5JJmwJmcHaIK57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UXLIUExSbru4NUj73GbUP1ccRfJ_TifJd_EvtniyfBh4bSexTd1-frD7527z4SM9QQ/Penetration+Testing+Icon.png
   img: /images/services/pentest.png
   desc: 
-    summary: A Penetration Test (Pen Test) involves simulating the effects of a hacker attempting to break into your network. The problem with most other tests is that they are pre-built software programs, designed to run against your network. However, hackers aren’t software! A software solution can in no way properly simulate how a human being will try to enter your network and damage or steal your information. Since you need an unbiased, honest look at your network, you still need to find an outside organization to test your security.
+    summary: A Penetration Test (Pen Test) involves simulating the effects of a hacker attempting to break into your network. The problem with most other tests is that they are pre-built software programs, designed to run against your network. However, hackers aren’t software! A software solution can in no way properly simulate how a human being will try to enter your network and damage or steal your information. Since you need an unbiased, honest look at your network, you still need to find an outside organization to test your security. Whether you need our team to conduct a penetration test of your security controls, an assessment of your security architecture, or even a gap analysis to see how you match up against industry standards, our expert consultants can deliver. We have experience working across industries and welcome challenging scenarios.
     url: https://en.wikipedia.org/wiki/Penetration_test
 
 - name: Secure Development
@@ -24,3 +24,15 @@
   desc:
     summary: Data leakages are among the biggest reasons companies are loosing money and reputation. When your data is found dangling on the Darknet or you suspect a data leak, we work with you to plug the gap and also to find the culprit. We help you in instilling an effective Data leakage policy to stay secure.
     url: https://www.imperva.com/learn/data-security/data-loss-prevention-dlp/#:~:text=Data%20Loss%20Prevention%20(DLP)%20is,data%20and%20comply%20with%20regulations.
+
+- name: Vulnerability Scouting
+  img: images/logo.png
+  desc: 
+    summary : Do headlines of IT breaches have you worried? Are you concerned your team might be missing something in the way of security? Our Scout services include hybrid solutions designed to frequently and regularly scan, assess, and identify vulnerabilities. We offer regular testing of internal and external networks, web applications, and users for resistance to social engineering.
+    url : #
+
+- name: Security Training
+  img: images/logo.png
+  desc: 
+    summary: Do you want to improve your organization's security posture by educating your personnel? Or maybe you want to accelerate your career development in information security? Whatever your motivation is, we offer a training solution that fits your needs. Our training options presently include tailored training for organizations, live courses, recorded online material, and an interactive User Awareness Training application.
+
