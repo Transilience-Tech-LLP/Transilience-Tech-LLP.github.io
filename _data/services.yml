@@ -1,5 +1,12 @@
 # services section data
 # 
+- name: Mentorship Program
+  # img: https://images.squarespace-cdn.com/content/v1/54f3390ee4b095d9141b86a5/1591361228956-26V43QFUQ6MT60KS2J8R/ke17ZwdGBToddI8pDm48kM0HbCBcGs5JJmwJmcHaIK57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UXLIUExSbru4NUj73GbUP1ccRfJ_TifJd_EvtniyfBh4bSexTd1-frD7527z4SM9QQ/Penetration+Testing+Icon.png
+  img: /images/services/mentor-mentee.png
+  desc: 
+    summary: Our experts provide a Mentorship program to the budding leaders of tomorrow in the field of Cyber Security and Management. If you would like to be a mentee just drop us a mail, and we would be happy to help you incubate and execute a project of your choice or provide you an internship with us.
+    url: https://www.transilience.tech/#
+
 - name: Penetration Testing and Consulting (Pentest)
   # img: https://images.squarespace-cdn.com/content/v1/54f3390ee4b095d9141b86a5/1591361228956-26V43QFUQ6MT60KS2J8R/ke17ZwdGBToddI8pDm48kM0HbCBcGs5JJmwJmcHaIK57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UXLIUExSbru4NUj73GbUP1ccRfJ_TifJd_EvtniyfBh4bSexTd1-frD7527z4SM9QQ/Penetration+Testing+Icon.png
   img: /images/services/pentest.png
