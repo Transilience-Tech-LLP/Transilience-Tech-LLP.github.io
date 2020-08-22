@@ -1,0 +1,66 @@
+---
+layout: default
+robots: all
+permalink: /contact
+title: Our Services | Services offered by Transilience Tech LLP
+summary: Our Services are best in class and they vary on a wide front due to the exposure that our Subject Matter Experts posses.
+---
+
+<!-- <div id="services"> -->
+
+  <!-- modify this form HTML and place wherever you want your form -->
+
+<form
+action="https://formspree.io/mdowvwqg"
+method="POST"
+>
+<label>
+  Your email:
+  <input type="text" name="_replyto">
+</label>
+<label>
+  Your message:
+  <textarea name="message"></textarea>
+</label>
+
+<!-- your other form fields go here -->
+
+<button type="submit">Send</button>
+</form>
+
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  <script>
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    formbutton("create", {action: "https://formspree.io/mdowvwqg"})
+  </script>
+  <ul class="timeline">
+    
+    {% for service in site.data.services %}
+
+      <li class="timeline-inverted">
+
+        <div class="timeline-image">
+          <img class="img-me" src="{{ service.img | prepend: site.baseurl }}" alt="">
+        </div>
+
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h2>
+              {{ service.name }}
+              <!-- <a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a> -->
+            </h2>
+          </div>
+
+          <div class="timeline-body">
+            {{ service.desc.summary | markdownify }}
+            <div style="height: 10px;"></div>
+            <a target="_blank" href="{{ service.desc.url }}"><i class="far fa-eye"></i><span class="watchers"> Know more...</span></a>
+              
+          </div>
+
+        </div>
+      </li>
+    {% endfor %}
+    
+  </ul>
+
