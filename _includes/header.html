@@ -95,6 +95,16 @@
                 </a>
               </li>
             {% endif %}
+            {% if site.author.youtube %}
+              <!-- Youtube -->
+              <li class="navigation__item">
+                <a href="{{ site.author.youtube }}" title="Youtube Channel" target="_blank">
+                  <!--<i class="icon icon-mail"></i>-->
+                  <i class="fa fa-youtube-play fa-lg"></i>
+                  <span class="label">Youtube</span>
+                </a>
+              </li>
+            {% endif %}
 
             </ul>
           </nav>
